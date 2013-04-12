@@ -2,7 +2,7 @@
 
 * Create a public repository on Github called ruby-circus
 * Add stonean as a collaborator
-* Create a State class in a file called state.rb
+* Create a State class in a file called state.rb.
 * The object should provide the following functionality:
 
 Open up irb
@@ -37,3 +37,14 @@ Call a method that will give me an array of all the state abbreviations in alpha
     irb(main):001:0> state.all_abbreviations
     => ["AL", "AK", <and so on>]
 
+
+### Acceptance criteria:
+
+* I should only have to create one state object.
+* That object should know the state names and their abbreviations.
+
+
+#### Hints:
+
+* You will create/modify state.rb in an editor of your choosing, not irb.
+** irb is only for testing your functionality
